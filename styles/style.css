@@ -428,8 +428,10 @@ background-color:#404BBF;
 .cust-link:focus {
     border-color: #404BBF;
 }
-
-.cust-link:hover,.cust-link:focus  .cust-icon{
+.cust-link:focus .cust-icon{
+    fill: #404BBF;
+}
+.cust-link:hover .cust-icon{
     fill: #404BBF;
 }
 
