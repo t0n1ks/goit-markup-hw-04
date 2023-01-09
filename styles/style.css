@@ -204,7 +204,7 @@ color: #FFFFFF;
     font-family: inherit;
     font-style: normal;
     padding: 16px 32px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #FFFFFF;
@@ -226,9 +226,8 @@ color: #FFFFFF;
 /*--------------Section1--------*/
 
 .abouthead {
-    margin-top: 8px;
-    display: flex;
-    gap: 24px;
+   padding-bottom: 120px;
+
 }
 
 .about-list {
@@ -258,6 +257,7 @@ color: #FFFFFF;
 
 .hhead{
     color: #2E2F42;
+    margin-top: 8px;
 }
 
 .phead{
@@ -576,6 +576,7 @@ line-height: 1.5;
 
 .button-text:focus,
 .button-text:hover{
+    border-color: #404BBF;;
     color: #FFFFFF;
     background-color: #404BBF;
     box-shadow: 0px 3px 1px 
